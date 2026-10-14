@@ -1,0 +1,17 @@
+__pycache__/
+cache/
+verification/
+.pytest_cache/
+.codebase-memory/
+*.safetensors
+*.ckpt
+*.gguf
+*.pt
+*.pth
+*.partial
+*.log
+.env
+.env.*
+# Local integration harnesses require this installation's optional extensions.
+tools/*
+!tools/convert_model.py
